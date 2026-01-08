@@ -12,7 +12,7 @@ import { HiPlus, HiDotsVertical } from "react-icons/hi";
 import HeaderItem from "./HeaderItem";
 
 const Header = () => {
-    const [toggle, setToggle] = useState(true);
+    const [toggle, setToggle] = useState(false);
   const menu = [
     { name: "HOME", icon: HiHome },
     { name: "SEARCH", icon: HiMagnifyingGlass },
